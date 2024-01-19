@@ -1,2 +1,2 @@
 # DeuxiemeRepo
-# Il etait une fois une loyal bon...
+# Il etait une fois une loyal bon...ou presque!
