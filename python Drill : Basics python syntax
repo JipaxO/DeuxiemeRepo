@@ -1,0 +1,5 @@
+print(len("Hello Word"))
+
+arr = ["one", "two"]
+print(len(arr))
+     

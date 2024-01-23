@@ -1,0 +1,60 @@
+age = 32
+age += 10
+divAge = age / 7
+textDiv = "{} divided by 7 equals {}".format(age, divAge)
+restDiv = age % 7
+expDiv = restDiv**3
+
+print(textDiv)
+num = int(input("give me a number "))
+print(num, type(num))
+
+bottle_of_milk = 0.45 * 2
+bottle_of_raw_cider = 3.85 * 3
+bag_of_flour = 0.9
+packet_of_butter = 0.77
+jar_of_nutella = 1.87
+
+orderPrice = bottle_of_milk + bottle_of_raw_cider + bag_of_flour + packet_of_butter + jar_of_nutella
+float_orderPrice = float(orderPrice)
+allowanceMoney = 20
+amountMisssing = orderPrice - allowanceMoney
+message = f"You have spent {float_orderPrice} you have left {allowanceMoney - orderPrice}"
+if orderPrice <= allowanceMoney:
+    print(message)
+elif orderPrice > allowanceMoney:
+    print(f"Sorry you're missing {amountMisssing} euros")
+else:
+    print("You are broke!")
+
+x , y = input("entrée deux valeurs: ").split()
+print(min(x, y))
+
+str1 = input("mentionner une premiere phrase: ")
+str2 = input("mentionner une deuxieme phrase: ")
+
+la_plus_grande_phrase = max(str1, str2)
+
+print("la plus longue phrase est: ", la_plus_grande_phrase)
+
+choix_devise = input("choisissez la devise à convertir (E = euro / $ = dollar)" )
+amount = float(input("encodez le montant à convertir " ))
+conversion_euro_dollar = (amount) * 1.09
+conversion_dollar_euro = (amount) * 0.91
+if choix_devise == "E":
+    print(conversion_euro_dollar)
+else:
+    print(conversion_dollar_euro)
+
+studentsTuring = ["Redouane", "Justine", "Ruben", "Edouard"]
+name = "Julie"
+
+if name in studentsTuring:
+    print("You are at the turing's")
+else:
+    print("You are not part of the turing's")
+
+r = 10
+import math
+volume = (4.0/3) * math.pi * r**3
+print ("le volume de la sphere est", volume)

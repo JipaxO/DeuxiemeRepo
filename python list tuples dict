@@ -1,0 +1,3 @@
+traduction = {"boy": "garcon", "girl": "fille", "house": "maison", "dad": "papa", "mom": "maman"}
+traduction ["file"] = "fichier"
+print(traduction)
